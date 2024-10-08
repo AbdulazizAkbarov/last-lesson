@@ -86,10 +86,9 @@
   margin: 120px auto 0;
   padding: 0 130px;
   margin-bottom: 113px;
-  // display: flex;
-  // flex-direction: column;
-  // flex-wrap: wrap;
 
+
+  
   .item {
     display: flex;
     justify-content: center;
@@ -117,6 +116,62 @@
     }
   }
 }
+
+.footer-cards{
+  .employe{
+margin: 0 auto;
+  
+  align-items: start;
+    h2{
+      text-align: center;
+      font-family: Recoleta;
+      font-size: 40px;
+
+    }
+    p{
+      text-align: center;
+      font-family: Noto Sans;
+
+    }
+  }
+
+
+  .carlardi_orash{
+    padding: 0 130px;
+    line-height: 30px;
+padding-bottom: 50px;
+margin-top: 50px;
+
+display: flex;
+justify-content:center;
+gap: 50px;
+
+
+    .card_orash{
+      background: #FBFAF7;
+  width: 300px;
+  height: 300px;
+  padding: 50px 0 10px 25px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+
+
+  &:hover{
+    transform:scale(1.1);
+
+    transition: 2s;
+  }
+    }
+
+  }
+
+
+
+
+
+
+}
+
 
 .partner {
   display: flex;
@@ -167,12 +222,21 @@
   }
 }
 
+
+
 .employees {
   background: #f2efe6;
   max-width: 1400px;
   margin: 0 auto;
   padding: 66px 130px 120px;
   text-align: center;
+
+  
+  .card_orash{
+    width: 350px;
+    background-color: #fff;
+    text-align: start;
+  }
   h2 {
     font-family: Recoleta;
     font-size: 48px;
@@ -187,7 +251,11 @@
     line-height: 27px;
     text-align: center;
   }
+
 }
+
+
+
 
 .menu_navbar {
   display: flex;
@@ -203,6 +271,8 @@
   top: 0;
   left: 0;
   transform: translateX(-100%);
+
+
 
   button {
     @include button();
