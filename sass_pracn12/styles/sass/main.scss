@@ -148,7 +148,7 @@ gap: 50px;
 
 
     .card_orash{
-      background: #FBFAF7;
+      background:$while-color;
   width: 300px;
   height: 300px;
   padding: 50px 0 10px 25px;
@@ -199,7 +199,7 @@ gap: 50px;
     font-size: 48px;
     font-weight: 600;
     line-height: 54px;
-    color: #fbfaf7;
+    color: $while-color;
     text-align: center;
     margin-bottom: 73px;
   }
@@ -213,7 +213,7 @@ gap: 50px;
       p {
         font-family: Noto Sans;
         font-size: 18px;
-        color: #fbfaf7;
+        color: $while-color;
         font-weight: 400;
         line-height: 27px;
         text-align: center;
@@ -225,7 +225,7 @@ gap: 50px;
 
 
 .employees {
-  background: #f2efe6;
+  background: $while-color;
   max-width: 1400px;
   margin: 0 auto;
   padding: 66px 130px 120px;
@@ -234,7 +234,7 @@ gap: 50px;
   
   .card_orash{
     width: 350px;
-    background-color: #fff;
+    background-color: $while-color;
     text-align: start;
   }
   h2 {
@@ -285,7 +285,7 @@ gap: 50px;
     font-weight: 400;
     line-height: 21.79px;
     text-align: right;
-    color: #fff;
+    color: black;;
     text-decoration: none;
   }
   .nav_wrap {
@@ -294,7 +294,7 @@ gap: 50px;
     justify-content: space-between;
     i {
       font-size: 49px;
-      color: #fff;
+      color: $while-color;
     }
   }
 }
